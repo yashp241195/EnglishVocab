@@ -1,0 +1,17 @@
+body{color:#fff;/*Option color */
+font-family:Century Gothic;
+background:#0dc9f7;/* Webpage background*/
+}
+/* Question Styling*/
+.Qcolor{
+font-family:Century Gothic;
+color:#3c2425;
+}
+.black{
+color:black;
+}
+#heading{
+color:#000000; 
+text-align:center; 
+font-family:algerian;
+}

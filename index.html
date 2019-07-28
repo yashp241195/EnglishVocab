@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Func/quizbody.css">
+	</head>
+    <body>
+        <div>
+            <h3 id="heading" ></h3>
+            <h5 style="color:#000000; text-align:center;">Total Questions = 15 </h5>
+        </div>
+		<br>
+		<p class="black">Navigate To Quiz Number :
+		<input id="SearchQuiz" type="number" min="0" max="2" style="width:50px; text-align:center;">
+			<input type="button" value="Search" onclick="FindQ()" />
+			</p>
+		<br>
+        <input type="button" value="Prev Quiz" onclick="PloadQ()" />
+        <input type="button" value="Rearrange" onclick="rearrange()" />
+		<input type="button" value="Next Quiz" onclick="NloadQ()" />
+        <br>
+		
+        <div id="demo"></div>
+        <br>
+        <input type="button" value="Get Result" onclick="getscore()" />
+        <div id="score"><br /></div>
+
+<div id="qBank">	
+</div>
+<script type="text/javascript">
+var max=2;
+</script>
+<script type="text/javascript" src="./Func/generator.js">
+</script>
+
+    </body>
+</html>
